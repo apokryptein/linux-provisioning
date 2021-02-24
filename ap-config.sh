@@ -5,7 +5,7 @@ sudo apt-get update && sudo apt-get install zsh curl git terminator apt-transpor
 DIR="/home/$(whoami)/"
 echo "[i] Checking for $DIR"
 if [ ! -d "$DIR/.config/terminator" ]; then
-    echo "[!] $DIR/.config/terminator does not exist.  Creating directory..."
+    echo "[!] $DIR.config/terminator does not exist.  Creating directory..."
     mkdir ~/.config/terminator
 fi
 
