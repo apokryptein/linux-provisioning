@@ -64,6 +64,7 @@ git clone https://github.com/jasonjfrank/gnmap-parser.git
 git clone https://github.com/mdsecactivebreach/SharpShooter.git
 git clone https://github.com/FortyNorthSecurity/EXCELntDonut.git
 git clone https://github.com/optiv/ScareCrow.git
+git clone https://github.com/byt3bl33d3r/SprayingToolkit.git
 
 echo "[i] Checking for $DIR/shares"
 if [ ! -d "$DIR/shares" ]; then
