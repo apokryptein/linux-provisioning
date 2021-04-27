@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get update && sudo apt-get install zsh curl git terminator apt-transport-https build-essential openssl certbot osslsigncode mingw-w64
+sudo apt-get update && sudo apt-get install zsh curl git terminator apt-transport-https build-essential openssl certbot osslsigncode mingw-w64 golang-go
 
 DIR="/home/$(whoami)/"
 echo "[i] Checking for $DIR"
