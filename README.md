@@ -1,4 +1,4 @@
-# Kali Linux Provisioning
+# Linux Provisioning Scripts
 
 This project contains scripts useful for provisioning Linux systems to fit my personal requirements after a new installation.
 
