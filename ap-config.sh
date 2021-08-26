@@ -66,7 +66,9 @@ git clone https://github.com/mdsecactivebreach/SharpShooter.git
 git clone https://github.com/FortyNorthSecurity/EXCELntDonut.git
 git clone https://github.com/optiv/ScareCrow.git
 git clone https://github.com/byt3bl33d3r/SprayingToolkit.git
-cd
+git clone https://github.com/michenriksen/aquatone
+
+cd ~
 
 echo "[i] Checking for $DIR/shares"
 if [ ! -d "$DIR/shares" ]; then
