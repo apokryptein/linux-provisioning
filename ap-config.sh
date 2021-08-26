@@ -66,6 +66,7 @@ git clone https://github.com/mdsecactivebreach/SharpShooter.git
 git clone https://github.com/FortyNorthSecurity/EXCELntDonut.git
 git clone https://github.com/optiv/ScareCrow.git
 git clone https://github.com/byt3bl33d3r/SprayingToolkit.git
+cd
 
 echo "[i] Checking for $DIR/shares"
 if [ ! -d "$DIR/shares" ]; then
@@ -76,7 +77,7 @@ fi
 echo "[i] Mounting shares"
 /usr/bin/vmhgfs-fuse .host:/ /home/$(whoami)/shares -o subtype=vmhgfs-fuse,allow_other
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 echo 'alias update-all="sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt autoremove -y"' >> ~/.zshrc
 echo 'alias mount-shares="/usr/bin/vmhgfs-fuse .host:/ ~/shares -o subtype=vmhgfs-fuse,allow_other"' >> ~/.zshrc
 echo 'export PATH=$PATH:/usr/sbin' >> ~/.zshrc
